@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="gui-aid" id="fr.univtln.ganne882.project2007.gui" metadata="uml2-1.0" initialized="true" zoom="0.5" scrolledX="726" tag="1000" key="32303036313030362070726F6A656374323030372F706F727461626C65">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="AlgosFrame" location="2270,590" size="393,332" id="fr.univtln.ganne882.project2007.gui/AlgosFrame" runTimeClassModel="AlgosFrame(Lfr.univtln.ganne882.project2007.algos.Algorithm;Z),algosFrameCodeCTab,mainFrameTabs,logs,c,algosFramePropositionTab,displayCodeC(Ljava.lang.String;Z),frameAlgorithm,taCodeC,spCodeC,epCodeC,listeners(),algosFrameDescriptionTab,getCodeC(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="259,180">
+      <children xsi:type="editmodel:AttributeEditModel" name="algosFrameCodeCTab" id="fr.univtln.ganne882.project2007.gui/AlgosFrame#algosFrameCodeCTab"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="algosFrameDescriptionTab" id="fr.univtln.ganne882.project2007.gui/AlgosFrame#algosFrameDescriptionTab"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="algosFramePropositionTab" id="fr.univtln.ganne882.project2007.gui/AlgosFrame#algosFramePropositionTab"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="c" id="fr.univtln.ganne882.project2007.gui/AlgosFrame#c"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="epCodeC" id="fr.univtln.ganne882.project2007.gui/AlgosFrame#epCodeC"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="frameAlgorithm" id="fr.univtln.ganne882.project2007.gui/AlgosFrame#frameAlgorithm"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="logs" id="fr.univtln.ganne882.project2007.gui/AlgosFrame#logs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mainFrameTabs" id="fr.univtln.ganne882.project2007.gui/AlgosFrame#mainFrameTabs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="spCodeC" id="fr.univtln.ganne882.project2007.gui/AlgosFrame#spCodeC"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="taCodeC" id="fr.univtln.ganne882.project2007.gui/AlgosFrame#taCodeC"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="370,72">
+      <children xsi:type="editmodel:MethodEditModel" name="AlgosFrame" id="fr.univtln.ganne882.project2007.gui/AlgosFrame#AlgosFrame(Lfr.univtln.ganne882.project2007.algos.Algorithm;Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="displayCodeC" id="fr.univtln.ganne882.project2007.gui/AlgosFrame#displayCodeC(Ljava.lang.String;Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCodeC" id="fr.univtln.ganne882.project2007.gui/AlgosFrame#getCodeC(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="listeners" id="fr.univtln.ganne882.project2007.gui/AlgosFrame#listeners()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/AlgosFrame->fr.univtln.ganne882.project2007.gui/Messages" source="//@children.0" target="//@children.7" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="54,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,172" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="253,76"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/AlgosFrame->fr.univtln.ganne882.project2007.gui/DescriptionTab" source="//@children.0" target="//@children.9" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="175,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,278"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/AlgosFrame->fr.univtln.ganne882.project2007.gui/PropositionTab" source="//@children.0" target="//@children.8" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="54,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="404,350"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.univtln.ganne882.project2007.gui/AlgosFrame->fr.univtln.ganne882.project2007.gui/PropositionTab" source="//@children.0" target="//@children.8" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="414,330"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.2/@sourceConnections.1 //@children.2/@sourceConnections.2" name="LoginDialog" location="1368,416" size="201,368" id="fr.univtln.ganne882.project2007.gui/LoginDialog" runTimeClassModel="lUser,userID,logs,pButtons,pfPassword,getUserID(),lPassword,getUserPWD(),userPWD,tfUser,LoginDialog(),container,pLogin,bQuit,bOk,pPassword">
+    <children xsi:type="editmodel:CompartmentEditModel" size="178,234">
+      <children xsi:type="editmodel:AttributeEditModel" name="bOk" id="fr.univtln.ganne882.project2007.gui/LoginDialog#bOk"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bQuit" id="fr.univtln.ganne882.project2007.gui/LoginDialog#bQuit"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="container" id="fr.univtln.ganne882.project2007.gui/LoginDialog#container"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lPassword" id="fr.univtln.ganne882.project2007.gui/LoginDialog#lPassword"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lUser" id="fr.univtln.ganne882.project2007.gui/LoginDialog#lUser"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="logs" id="fr.univtln.ganne882.project2007.gui/LoginDialog#logs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pButtons" id="fr.univtln.ganne882.project2007.gui/LoginDialog#pButtons"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pLogin" id="fr.univtln.ganne882.project2007.gui/LoginDialog#pLogin"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pPassword" id="fr.univtln.ganne882.project2007.gui/LoginDialog#pPassword"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pfPassword" id="fr.univtln.ganne882.project2007.gui/LoginDialog#pfPassword"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tfUser" id="fr.univtln.ganne882.project2007.gui/LoginDialog#tfUser"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="userID" id="fr.univtln.ganne882.project2007.gui/LoginDialog#userID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="userPWD" id="fr.univtln.ganne882.project2007.gui/LoginDialog#userPWD"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,54">
+      <children xsi:type="editmodel:MethodEditModel" name="LoginDialog" id="fr.univtln.ganne882.project2007.gui/LoginDialog#LoginDialog()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUserID" id="fr.univtln.ganne882.project2007.gui/LoginDialog#getUserID()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUserPWD" id="fr.univtln.ganne882.project2007.gui/LoginDialog#getUserPWD()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/LoginDialog->fr.univtln.ganne882.project2007.gui/Messages" source="//@children.1" target="//@children.7" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="54,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="201,319" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,49"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main" location="1450,906" size="198,224" id="fr.univtln.ganne882.project2007.gui/Main" runTimeClassModel="theLoginDialog,userID,main([Ljava.lang.String;),normalizes(),logs,Main(),isStudent,pwd">
+    <children xsi:type="editmodel:CompartmentEditModel" size="175,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="isStudent" id="fr.univtln.ganne882.project2007.gui/Main#isStudent"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="logs" id="fr.univtln.ganne882.project2007.gui/Main#logs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pwd" id="fr.univtln.ganne882.project2007.gui/Main#pwd"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="theLoginDialog" id="fr.univtln.ganne882.project2007.gui/Main#theLoginDialog"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="userID" id="fr.univtln.ganne882.project2007.gui/Main#userID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Main" id="fr.univtln.ganne882.project2007.gui/Main#Main()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="fr.univtln.ganne882.project2007.gui/Main#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="normalizes" id="fr.univtln.ganne882.project2007.gui/Main#normalizes()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/Main->fr.univtln.ganne882.project2007.gui/LoginDialog" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="54,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="141,368"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.univtln.ganne882.project2007.gui/Main->fr.univtln.ganne882.project2007.gui/LoginDialog" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="197,203" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.univtln.ganne882.project2007.gui/Main->fr.univtln.ganne882.project2007.gui/LoginDialog" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="196,223" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,-10"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.2" name="MainFrameStudent" location="1970,990" size="409,386" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent" runTimeClassModel="bFromRightToLeft,logs,lIsLearnt,lMAD,MainFrameStudent(Ljava.lang.String;Lfr.univtln.ganne882.project2007.users.Student;),pMAD,pMain,pMADCenter,lstMAD,pIsLearnt,pCenterMADCenter,listeners(),valueChanged(Ljavax.swing.event.ListSelectionEvent;),student,bLookAtOrPropose,lstMADContents,bFromLeftToRight">
+    <children xsi:type="editmodel:CompartmentEditModel" size="225,252">
+      <children xsi:type="editmodel:AttributeEditModel" name="bFromLeftToRight" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#bFromLeftToRight"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bFromRightToLeft" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#bFromRightToLeft"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bLookAtOrPropose" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#bLookAtOrPropose"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lIsLearnt" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#lIsLearnt"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lMAD" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#lMAD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="logs" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#logs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lstMAD" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#lstMAD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lstMADContents" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#lstMADContents"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pCenterMADCenter" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#pCenterMADCenter"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pIsLearnt" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#pIsLearnt"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pMAD" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#pMAD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pMADCenter" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#pMADCenter"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pMain" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#pMain"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="student" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#student"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="386,54">
+      <children xsi:type="editmodel:MethodEditModel" name="MainFrameStudent" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#MainFrameStudent(Ljava.lang.String;Lfr.univtln.ganne882.project2007.users.Student;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="listeners" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#listeners()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="valueChanged" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent#valueChanged(Ljavax.swing.event.ListSelectionEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/MainFrameStudent->fr.univtln.ganne882.project2007.gui/Messages" source="//@children.3" target="//@children.7" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="54,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="253,142"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TestsGUI" location="1820,880" size="95,126" id="fr.univtln.ganne882.project2007.gui/TestsGUI" runTimeClassModel="test1(),test2(),test3()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="60,54">
+      <children xsi:type="editmodel:MethodEditModel" name="test1" id="fr.univtln.ganne882.project2007.gui/TestsGUI#test1()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="test2" id="fr.univtln.ganne882.project2007.gui/TestsGUI#test2()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="test3" id="fr.univtln.ganne882.project2007.gui/TestsGUI#test3()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/TestsGUI->fr.univtln.ganne882.project2007.gui/AlgosFrame" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="95,21" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,311"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/TestsGUI->fr.univtln.ganne882.project2007.gui/MainFrameTeacher" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="85,126" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/TestsGUI->fr.univtln.ganne882.project2007.gui/MainFrameStudent" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="95,118" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,8"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1" name="MainFrameTeacher" location="2070,1533" size="301,188" id="fr.univtln.ganne882.project2007.gui/MainFrameTeacher" runTimeClassModel="mainFrameTabs,logs,c,teachersMainFrameAlgosTab,teachersMainFrameStudentsTab,MainFrameTeacher(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="278,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="c" id="fr.univtln.ganne882.project2007.gui/MainFrameTeacher#c"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="logs" id="fr.univtln.ganne882.project2007.gui/MainFrameTeacher#logs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mainFrameTabs" id="fr.univtln.ganne882.project2007.gui/MainFrameTeacher#mainFrameTabs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="teachersMainFrameAlgosTab" id="fr.univtln.ganne882.project2007.gui/MainFrameTeacher#teachersMainFrameAlgosTab"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="teachersMainFrameStudentsTab" id="fr.univtln.ganne882.project2007.gui/MainFrameTeacher#teachersMainFrameStudentsTab"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="199,18">
+      <children xsi:type="editmodel:MethodEditModel" name="MainFrameTeacher" id="fr.univtln.ganne882.project2007.gui/MainFrameTeacher#MainFrameTeacher(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.univtln.ganne882.project2007.gui/MainFrameTeacher->fr.univtln.ganne882.project2007.gui/StudentsTab" source="//@children.5" target="//@children.10" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,84" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="347,290"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="fr.univtln.ganne882.project2007.gui/MainFrameTeacher->fr.univtln.ganne882.project2007.gui/AlgosTab" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="301,2" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,347"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/MainFrameTeacher->fr.univtln.ganne882.project2007.gui/AlgosTab" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.2/@children.2" label="//@children.5/@sourceConnections.2/@children.0" sourceEnd="//@children.5/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="291,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,340"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/MainFrameTeacher->fr.univtln.ganne882.project2007.gui/Messages" source="//@children.5" target="//@children.7" targetEnd="//@children.5/@sourceConnections.3/@children.2" label="//@children.5/@sourceConnections.3/@children.0" sourceEnd="//@children.5/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="54,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="243,152"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/MainFrameTeacher->fr.univtln.ganne882.project2007.gui/StudentsTab" source="//@children.5" target="//@children.10" targetEnd="//@children.5/@sourceConnections.4/@children.2" label="//@children.5/@sourceConnections.4/@children.0" sourceEnd="//@children.5/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,94" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="347,418"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.1 //@children.5/@sourceConnections.2" name="AlgosTab" location="2410,1160" size="239,350" id="fr.univtln.ganne882.project2007.gui/AlgosTab" runTimeClassModel="cbSteps,lSteps,logs,pButtons,pSteps,lstAlgosContents,lstAlgos,bSteps,pRight,lLegend,AlgosTab(),f,listeners(),bEdit,bAdd">
+    <children xsi:type="editmodel:CompartmentEditModel" size="216,234">
+      <children xsi:type="editmodel:AttributeEditModel" name="bAdd" id="fr.univtln.ganne882.project2007.gui/AlgosTab#bAdd"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bEdit" id="fr.univtln.ganne882.project2007.gui/AlgosTab#bEdit"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bSteps" id="fr.univtln.ganne882.project2007.gui/AlgosTab#bSteps"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cbSteps" id="fr.univtln.ganne882.project2007.gui/AlgosTab#cbSteps"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="f" id="fr.univtln.ganne882.project2007.gui/AlgosTab#f"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lLegend" id="fr.univtln.ganne882.project2007.gui/AlgosTab#lLegend"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lSteps" id="fr.univtln.ganne882.project2007.gui/AlgosTab#lSteps"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="logs" id="fr.univtln.ganne882.project2007.gui/AlgosTab#logs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lstAlgos" id="fr.univtln.ganne882.project2007.gui/AlgosTab#lstAlgos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lstAlgosContents" id="fr.univtln.ganne882.project2007.gui/AlgosTab#lstAlgosContents"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pButtons" id="fr.univtln.ganne882.project2007.gui/AlgosTab#pButtons"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pRight" id="fr.univtln.ganne882.project2007.gui/AlgosTab#pRight"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pSteps" id="fr.univtln.ganne882.project2007.gui/AlgosTab#pSteps"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="81,36">
+      <children xsi:type="editmodel:MethodEditModel" name="AlgosTab" id="fr.univtln.ganne882.project2007.gui/AlgosTab#AlgosTab()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="listeners" id="fr.univtln.ganne882.project2007.gui/AlgosTab#listeners()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/AlgosTab->fr.univtln.ganne882.project2007.gui/Messages" source="//@children.6" target="//@children.7" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="54,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="243,152"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.10/@sourceConnections.0 //@children.5/@sourceConnections.3 //@children.9/@sourceConnections.0 //@children.6/@sourceConnections.0 //@children.1/@sourceConnections.0 //@children.3/@sourceConnections.0 //@children.8/@sourceConnections.0" name="Messages" location="1691,686" size="253,152" id="fr.univtln.ganne882.project2007.gui/Messages" runTimeClassModel="Messages(),getString(Ljava.lang.String;),rESOURCE_BUNDLE,bUNDLE_NAME">
+    <children xsi:type="editmodel:CompartmentEditModel" size="230,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="bUNDLE_NAME" id="fr.univtln.ganne882.project2007.gui/Messages#bUNDLE_NAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rESOURCE_BUNDLE" id="fr.univtln.ganne882.project2007.gui/Messages#rESOURCE_BUNDLE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="199,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Messages" id="fr.univtln.ganne882.project2007.gui/Messages#Messages()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getString" id="fr.univtln.ganne882.project2007.gui/Messages#getString(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2 //@children.0/@sourceConnections.3" name="PropositionTab" location="1693,215" size="414,350" id="fr.univtln.ganne882.project2007.gui/PropositionTab" runTimeClassModel="getPropositionParams(),logs,pButtons,taStdout,PropositionTab(Lfr.univtln.ganne882.project2007.algos.Algorithm;Z),lParams,pParams,taEditableField,pStdOut,pWorkingSet,f,bExecute,bRegister,tfFunctionHeader,tfParams">
+    <children xsi:type="editmodel:CompartmentEditModel" size="172,234">
+      <children xsi:type="editmodel:AttributeEditModel" name="bExecute" id="fr.univtln.ganne882.project2007.gui/PropositionTab#bExecute"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bRegister" id="fr.univtln.ganne882.project2007.gui/PropositionTab#bRegister"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="f" id="fr.univtln.ganne882.project2007.gui/PropositionTab#f"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lParams" id="fr.univtln.ganne882.project2007.gui/PropositionTab#lParams"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="logs" id="fr.univtln.ganne882.project2007.gui/PropositionTab#logs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pButtons" id="fr.univtln.ganne882.project2007.gui/PropositionTab#pButtons"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pParams" id="fr.univtln.ganne882.project2007.gui/PropositionTab#pParams"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pStdOut" id="fr.univtln.ganne882.project2007.gui/PropositionTab#pStdOut"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pWorkingSet" id="fr.univtln.ganne882.project2007.gui/PropositionTab#pWorkingSet"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="taEditableField" id="fr.univtln.ganne882.project2007.gui/PropositionTab#taEditableField"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="taStdout" id="fr.univtln.ganne882.project2007.gui/PropositionTab#taStdout"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tfFunctionHeader" id="fr.univtln.ganne882.project2007.gui/PropositionTab#tfFunctionHeader"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tfParams" id="fr.univtln.ganne882.project2007.gui/PropositionTab#tfParams"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="391,36">
+      <children xsi:type="editmodel:MethodEditModel" name="PropositionTab" id="fr.univtln.ganne882.project2007.gui/PropositionTab#PropositionTab(Lfr.univtln.ganne882.project2007.algos.Algorithm;Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPropositionParams" id="fr.univtln.ganne882.project2007.gui/PropositionTab#getPropositionParams()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/PropositionTab->fr.univtln.ganne882.project2007.gui/Messages" source="//@children.8" target="//@children.7" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="54,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="125,350" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="127,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1" name="DescriptionTab" location="2171,234" size="450,278" id="fr.univtln.ganne882.project2007.gui/DescriptionTab" runTimeClassModel="lHTMLDescription,DescriptionTab(Lfr.univtln.ganne882.project2007.algos.Algorithm;Z),lAttributes,taAttributes,logs,displayDescription(Ljava.lang.String;Z),taHTMLDescription,spHTMLDescription,epHTMLDescription,pAttributes,getDescriptionParams(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="199,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="epHTMLDescription" id="fr.univtln.ganne882.project2007.gui/DescriptionTab#epHTMLDescription"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lAttributes" id="fr.univtln.ganne882.project2007.gui/DescriptionTab#lAttributes"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lHTMLDescription" id="fr.univtln.ganne882.project2007.gui/DescriptionTab#lHTMLDescription"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="logs" id="fr.univtln.ganne882.project2007.gui/DescriptionTab#logs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pAttributes" id="fr.univtln.ganne882.project2007.gui/DescriptionTab#pAttributes"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="spHTMLDescription" id="fr.univtln.ganne882.project2007.gui/DescriptionTab#spHTMLDescription"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="taAttributes" id="fr.univtln.ganne882.project2007.gui/DescriptionTab#taAttributes"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="taHTMLDescription" id="fr.univtln.ganne882.project2007.gui/DescriptionTab#taHTMLDescription"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="427,54">
+      <children xsi:type="editmodel:MethodEditModel" name="DescriptionTab" id="fr.univtln.ganne882.project2007.gui/DescriptionTab#DescriptionTab(Lfr.univtln.ganne882.project2007.algos.Algorithm;Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="displayDescription" id="fr.univtln.ganne882.project2007.gui/DescriptionTab#displayDescription(Ljava.lang.String;Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDescriptionParams" id="fr.univtln.ganne882.project2007.gui/DescriptionTab#getDescriptionParams(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/DescriptionTab->fr.univtln.ganne882.project2007.gui/Messages" source="//@children.9" target="//@children.7" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="54,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,268" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="243,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.5/@sourceConnections.4" name="StudentsTab" location="1576,1209" size="347,530" id="fr.univtln.ganne882.project2007.gui/StudentsTab" runTimeClassModel="StudentsTab(),cbGrad,bExport,pAlgosListCenter,lstMAD,pAlgosList,lGrad,pStudentsDescription,pAlgosListTop,valueChanged(Ljavax.swing.event.ListSelectionEvent;),name,lStep,cbStep,getSelectedListOfAlgos(I),fillList(I),logs,indexesOfNoInfoAlgos,cbName,lMAD,lName,pExport,indGrad,listeners(),step,lstMADContents">
+    <children xsi:type="editmodel:CompartmentEditModel" size="217,360">
+      <children xsi:type="editmodel:AttributeEditModel" name="bExport" id="fr.univtln.ganne882.project2007.gui/StudentsTab#bExport"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cbGrad" id="fr.univtln.ganne882.project2007.gui/StudentsTab#cbGrad"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cbName" id="fr.univtln.ganne882.project2007.gui/StudentsTab#cbName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cbStep" id="fr.univtln.ganne882.project2007.gui/StudentsTab#cbStep"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="indGrad" id="fr.univtln.ganne882.project2007.gui/StudentsTab#indGrad"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="indexesOfNoInfoAlgos" id="fr.univtln.ganne882.project2007.gui/StudentsTab#indexesOfNoInfoAlgos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lGrad" id="fr.univtln.ganne882.project2007.gui/StudentsTab#lGrad"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lMAD" id="fr.univtln.ganne882.project2007.gui/StudentsTab#lMAD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lName" id="fr.univtln.ganne882.project2007.gui/StudentsTab#lName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lStep" id="fr.univtln.ganne882.project2007.gui/StudentsTab#lStep"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="logs" id="fr.univtln.ganne882.project2007.gui/StudentsTab#logs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lstMAD" id="fr.univtln.ganne882.project2007.gui/StudentsTab#lstMAD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lstMADContents" id="fr.univtln.ganne882.project2007.gui/StudentsTab#lstMADContents"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="fr.univtln.ganne882.project2007.gui/StudentsTab#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pAlgosList" id="fr.univtln.ganne882.project2007.gui/StudentsTab#pAlgosList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pAlgosListCenter" id="fr.univtln.ganne882.project2007.gui/StudentsTab#pAlgosListCenter"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pAlgosListTop" id="fr.univtln.ganne882.project2007.gui/StudentsTab#pAlgosListTop"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pExport" id="fr.univtln.ganne882.project2007.gui/StudentsTab#pExport"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pStudentsDescription" id="fr.univtln.ganne882.project2007.gui/StudentsTab#pStudentsDescription"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="step" id="fr.univtln.ganne882.project2007.gui/StudentsTab#step"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="324,90">
+      <children xsi:type="editmodel:MethodEditModel" name="StudentsTab" id="fr.univtln.ganne882.project2007.gui/StudentsTab#StudentsTab()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fillList" id="fr.univtln.ganne882.project2007.gui/StudentsTab#fillList(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSelectedListOfAlgos" id="fr.univtln.ganne882.project2007.gui/StudentsTab#getSelectedListOfAlgos(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="listeners" id="fr.univtln.ganne882.project2007.gui/StudentsTab#listeners()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="valueChanged" id="fr.univtln.ganne882.project2007.gui/StudentsTab#valueChanged(Ljavax.swing.event.ListSelectionEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.gui/StudentsTab->fr.univtln.ganne882.project2007.gui/Messages" source="//@children.10" target="//@children.7" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="54,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="230,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="115,152"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="users-aid" id="fr.univtln.ganne882.project2007.users" metadata="uml2-1.0" initialized="true" tag="1000" key="32303036313030362070726F6A656374323030372F706F727461626C65">
+  <children xsi:type="editmodel:ClassEditModel" name="Student" location="50,324" size="425,260" id="fr.univtln.ganne882.project2007.users/Student" runTimeClassModel="doIt(Ljava.lang.String;I),toString(),logs,login,Student(Ljava.lang.String;),Student(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),getLogin(),getStep(),step,name">
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="login" id="fr.univtln.ganne882.project2007.users/Student#login"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="logs" id="fr.univtln.ganne882.project2007.users/Student#logs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="fr.univtln.ganne882.project2007.users/Student#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="step" id="fr.univtln.ganne882.project2007.users/Student#step"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="402,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Student" id="fr.univtln.ganne882.project2007.users/Student#Student(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Student" id="fr.univtln.ganne882.project2007.users/Student#Student(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="doIt" id="fr.univtln.ganne882.project2007.users/Student#doIt(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLogin" id="fr.univtln.ganne882.project2007.users/Student#getLogin()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStep" id="fr.univtln.ganne882.project2007.users/Student#getStep()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="fr.univtln.ganne882.project2007.users/Student#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TestsUsers" location="494,50" size="172,134" id="fr.univtln.ganne882.project2007.users/TestsUsers" runTimeClassModel="test1(),main([Ljava.lang.String;),test2()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,54">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="fr.univtln.ganne882.project2007.users/TestsUsers#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="test1" id="fr.univtln.ganne882.project2007.users/TestsUsers#test1()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="test2" id="fr.univtln.ganne882.project2007.users/TestsUsers#test2()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.users/TestsUsers->fr.univtln.ganne882.project2007.users/CheckID" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,67" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="341,67"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="CheckID" location="50,50" size="341,224" id="fr.univtln.ganne882.project2007.users/CheckID" runTimeClassModel="canBeLogged(),password,CheckID(Ljava.lang.String;Ljava.lang.String;),logs,login,isStudent(),getLogin(),isStudent">
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="isStudent" id="fr.univtln.ganne882.project2007.users/CheckID#isStudent"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="login" id="fr.univtln.ganne882.project2007.users/CheckID#login"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="logs" id="fr.univtln.ganne882.project2007.users/CheckID#logs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="password" id="fr.univtln.ganne882.project2007.users/CheckID#password"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="318,72">
+      <children xsi:type="editmodel:MethodEditModel" name="CheckID" id="fr.univtln.ganne882.project2007.users/CheckID#CheckID(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="canBeLogged" id="fr.univtln.ganne882.project2007.users/CheckID#canBeLogged()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLogin" id="fr.univtln.ganne882.project2007.users/CheckID#getLogin()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isStudent" id="fr.univtln.ganne882.project2007.users/CheckID#isStudent()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>

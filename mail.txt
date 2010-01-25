@@ -1,0 +1,12 @@
+Bonjour,
+
+Je me sers d'un script ant pour compiler sous eclipse, et je souhaite traduire mon application, or ant ne trouve pas mes fichiers messages_xx.properties ou sont contenues mes strings externes que je traduis. 
+Sauriez vous comment puis-je ajouter à mon script ant le chemin vers ces fichiers lors de l'edition de liens dynamiques svp, j'ai beau chercher je ne trouve pas d'infos là dessus...
+
+Exception in thread "main" java.lang.ExceptionInInitializerError
+     [java] 	at project2007.gui.LoginDialog.<init>(Unknown Source)
+     [java] 	at project2007.gui.Main.<init>(Unknown Source)
+     [java] 	at project2007.gui.Main.main(Unknown Source)
+     [java] Caused by: java.util.MissingResourceException: Can't find bundle for base name project2007.gui.messages_fr, locale fr_FR
+
+Merci.
