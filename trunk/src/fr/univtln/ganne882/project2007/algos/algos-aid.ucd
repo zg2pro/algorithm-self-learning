@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="algos-aid" id="fr.univtln.ganne882.project2007.algos" metadata="uml2-1.0" initialized="true" zoom="0.5" scrolledX="552" scrolledY="336" tag="1000" key="32303036313030362070726F6A656374323030372F706F727461626C65">
+  <children xsi:type="editmodel:ClassEditModel" name="ByteArrayClassLoader" location="1307,1000" size="238,134" id="fr.univtln.ganne882.project2007.algos/ByteArrayClassLoader" runTimeClassModel="loadClass(Ljava.lang.String;),classes,ByteArrayClassLoader(Ljava.util.Map;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="classes" id="fr.univtln.ganne882.project2007.algos/ByteArrayClassLoader#classes"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="215,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ByteArrayClassLoader" id="fr.univtln.ganne882.project2007.algos/ByteArrayClassLoader#ByteArrayClassLoader(Ljava.util.Map;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadClass" id="fr.univtln.ganne882.project2007.algos/ByteArrayClassLoader#loadClass(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CompileSourceInMemory" location="1279,880" size="238,98" id="fr.univtln.ganne882.project2007.algos/CompileSourceInMemory" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="fr.univtln.ganne882.project2007.algos/CompileSourceInMemory#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="IsRelatedToProgram" location="770,1528" size="431,152" id="fr.univtln.ganne882.project2007.algos/IsRelatedToProgram" runTimeClassModel="setNewSetToAStudent(ILjava.lang.String;C),setNewSet(ILjava.lang.String;C),logs,run(ILjava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="logs" id="fr.univtln.ganne882.project2007.algos/IsRelatedToProgram#logs"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="408,54">
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="fr.univtln.ganne882.project2007.algos/IsRelatedToProgram#run(ILjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNewSet" id="fr.univtln.ganne882.project2007.algos/IsRelatedToProgram#setNewSet(ILjava.lang.String;C)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNewSetToAStudent" id="fr.univtln.ganne882.project2007.algos/IsRelatedToProgram#setNewSetToAStudent(ILjava.lang.String;C)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="StudentKnowledge" location="639,1380" size="442,116" id="fr.univtln.ganne882.project2007.algos/StudentKnowledge" runTimeClassModel="logs,switchKnowledge(Ljava.lang.String;IC)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="logs" id="fr.univtln.ganne882.project2007.algos/StudentKnowledge#logs"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="419,18">
+      <children xsi:type="editmodel:MethodEditModel" name="switchKnowledge" id="fr.univtln.ganne882.project2007.algos/StudentKnowledge#switchKnowledge(Ljava.lang.String;IC)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="JavaSourceFromString" location="1070,660" size="424,134" id="fr.univtln.ganne882.project2007.algos/JavaSourceFromString" runTimeClassModel="code,getCharContent(Z),JavaSourceFromString(Ljava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="88,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="code" id="fr.univtln.ganne882.project2007.algos/JavaSourceFromString#code"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="401,36">
+      <children xsi:type="editmodel:MethodEditModel" name="JavaSourceFromString" id="fr.univtln.ganne882.project2007.algos/JavaSourceFromString#JavaSourceFromString(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCharContent" id="fr.univtln.ganne882.project2007.algos/JavaSourceFromString#getCharContent(Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.9/@sourceConnections.0" name="MemoryFileManager" location="1590,638" size="724,334" id="fr.univtln.ganne882.project2007.algos/MemoryFileManager" runTimeClassModel="getClassLoader(Ljavax.tools.JavaFileManager.Location;),makeSource(Ljava.lang.String;Ljava.lang.String;),MemoryFileManager(Ljavax.tools.JavaFileManager;),uriFromString(Ljava.lang.String;),fr.univtln.ganne882.project2007.algos.MemoryFileManager.JavaClassInArray,classes,getJavaFileForOutput(Ljavax.tools.JavaFileManager.Location;Ljava.lang.String;Ljavax.tools.JavaFileObject.Kind;Ljavax.tools.FileObject;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="classes" id="fr.univtln.ganne882.project2007.algos/MemoryFileManager#classes"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="701,90">
+      <children xsi:type="editmodel:MethodEditModel" name="MemoryFileManager" id="fr.univtln.ganne882.project2007.algos/MemoryFileManager#MemoryFileManager(Ljavax.tools.JavaFileManager;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getClassLoader" id="fr.univtln.ganne882.project2007.algos/MemoryFileManager#getClassLoader(Ljavax.tools.JavaFileManager.Location;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJavaFileForOutput" id="fr.univtln.ganne882.project2007.algos/MemoryFileManager#getJavaFileForOutput(Ljavax.tools.JavaFileManager.Location;Ljava.lang.String;Ljavax.tools.JavaFileObject.Kind;Ljavax.tools.FileObject;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="makeSource" id="fr.univtln.ganne882.project2007.algos/MemoryFileManager#makeSource(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="uriFromString" id="fr.univtln.ganne882.project2007.algos/MemoryFileManager#uriFromString(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="250,136">
+      <children xsi:type="editmodel:ClassEditModel" name="JavaClassInArray" size="250,134" id="fr.univtln.ganne882.project2007.algos/MemoryFileManager$JavaClassInArray" runTimeClassModel="JavaClassInArray(Ljava.lang.String;),openOutputStream(),name">
+        <children xsi:type="editmodel:CompartmentEditModel" size="93,18">
+          <children xsi:type="editmodel:AttributeEditModel" name="name" id="fr.univtln.ganne882.project2007.algos/MemoryFileManager$JavaClassInArray#name"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="227,36">
+          <children xsi:type="editmodel:MethodEditModel" name="JavaClassInArray" id="fr.univtln.ganne882.project2007.algos/MemoryFileManager$JavaClassInArray#JavaClassInArray(Ljava.lang.String;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="openOutputStream" id="fr.univtln.ganne882.project2007.algos/MemoryFileManager$JavaClassInArray#openOutputStream()"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.algos/MemoryFileManager->fr.univtln.ganne882.project2007.algos/JavaSourceFromString" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="54,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,89" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="424,67"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.0" name="Messages" location="1330,1257" size="253,152" id="fr.univtln.ganne882.project2007.algos/Messages" runTimeClassModel="Messages(),getString(Ljava.lang.String;),rESOURCE_BUNDLE,bUNDLE_NAME">
+    <children xsi:type="editmodel:CompartmentEditModel" size="230,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="bUNDLE_NAME" id="fr.univtln.ganne882.project2007.algos/Messages#bUNDLE_NAME"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rESOURCE_BUNDLE" id="fr.univtln.ganne882.project2007.algos/Messages#rESOURCE_BUNDLE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="199,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Messages" id="fr.univtln.ganne882.project2007.algos/Messages#Messages()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getString" id="fr.univtln.ganne882.project2007.algos/Messages#getString(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TestsAlgos" location="1188,1369" size="128,116" id="fr.univtln.ganne882.project2007.algos/TestsAlgos" runTimeClassModel="test1(),test2()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="60,36">
+      <children xsi:type="editmodel:MethodEditModel" name="test1" id="fr.univtln.ganne882.project2007.algos/TestsAlgos#test1()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="test2" id="fr.univtln.ganne882.project2007.algos/TestsAlgos#test2()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.algos/TestsAlgos->fr.univtln.ganne882.project2007.algos/Algorithm" source="//@children.7" target="//@children.8" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="372,538"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.algos/TestsAlgos->fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler" source="//@children.7" target="//@children.9" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="54,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,57" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,213"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0 //@children.10/@sourceConnections.1 //@children.10/@sourceConnections.2 //@children.9/@sourceConnections.1" name="Algorithm" location="663,610" size="372,548" id="fr.univtln.ganne882.project2007.algos/Algorithm" runTimeClassModel="functionHeader,getName(),getCodeC(),updateAttributes(),hasBeenRecentlyModificated(),algoProposition,getAlgoProposition(),indLevel_,getIndAlgo(),domain_,name,getDomain_(),getType_(),type_,toString(),logs,Algorithm(),getDescription(),addToDB(),codeC,getIndLevel_(),isModificatedByAStudent,getFunctionHeader(),description,indAlgo,Algorithm(ZILjava.lang.String;Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="211,198">
+      <children xsi:type="editmodel:AttributeEditModel" name="algoProposition" id="fr.univtln.ganne882.project2007.algos/Algorithm#algoProposition"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="codeC" id="fr.univtln.ganne882.project2007.algos/Algorithm#codeC"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="description" id="fr.univtln.ganne882.project2007.algos/Algorithm#description"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="domain_" id="fr.univtln.ganne882.project2007.algos/Algorithm#domain_"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="functionHeader" id="fr.univtln.ganne882.project2007.algos/Algorithm#functionHeader"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="indAlgo" id="fr.univtln.ganne882.project2007.algos/Algorithm#indAlgo"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="indLevel_" id="fr.univtln.ganne882.project2007.algos/Algorithm#indLevel_"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="isModificatedByAStudent" id="fr.univtln.ganne882.project2007.algos/Algorithm#isModificatedByAStudent"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="logs" id="fr.univtln.ganne882.project2007.algos/Algorithm#logs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="fr.univtln.ganne882.project2007.algos/Algorithm#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="type_" id="fr.univtln.ganne882.project2007.algos/Algorithm#type_"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="1389,270">
+      <children xsi:type="editmodel:MethodEditModel" name="Algorithm" id="fr.univtln.ganne882.project2007.algos/Algorithm#Algorithm()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Algorithm" id="fr.univtln.ganne882.project2007.algos/Algorithm#Algorithm(ZILjava.lang.String;Ljava.lang.String;Ljava.lang.String;ILjava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addToDB" id="fr.univtln.ganne882.project2007.algos/Algorithm#addToDB()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAlgoProposition" id="fr.univtln.ganne882.project2007.algos/Algorithm#getAlgoProposition()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCodeC" id="fr.univtln.ganne882.project2007.algos/Algorithm#getCodeC()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="fr.univtln.ganne882.project2007.algos/Algorithm#getDescription()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDomain_" id="fr.univtln.ganne882.project2007.algos/Algorithm#getDomain_()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFunctionHeader" id="fr.univtln.ganne882.project2007.algos/Algorithm#getFunctionHeader()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIndAlgo" id="fr.univtln.ganne882.project2007.algos/Algorithm#getIndAlgo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIndLevel_" id="fr.univtln.ganne882.project2007.algos/Algorithm#getIndLevel_()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="fr.univtln.ganne882.project2007.algos/Algorithm#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getType_" id="fr.univtln.ganne882.project2007.algos/Algorithm#getType_()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasBeenRecentlyModificated" id="fr.univtln.ganne882.project2007.algos/Algorithm#hasBeenRecentlyModificated()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="fr.univtln.ganne882.project2007.algos/Algorithm#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateAttributes" id="fr.univtln.ganne882.project2007.algos/Algorithm#updateAttributes()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.1" name="AlgoDynamicCompiler" location="1596,1213" size="634,368" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler" runTimeClassModel="AlgoDynamicCompiler(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),generateCode(),fileManager,diagnostics,function,headerParams,compile(Ljava.util.List;),getCompiledClass(Ljava.lang.String;),code,runExecution(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),getCode(),returningType,params,compiler,standardFileManager,setFunction()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="235,162">
+      <children xsi:type="editmodel:AttributeEditModel" name="code" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#code"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="compiler" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#compiler"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="diagnostics" id="javax.tools/JavaFileObject@diagnostics+fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler@|javax.tools/JavaFileObject#diagnostics"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fileManager" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#fileManager"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="function" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#function"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="headerParams" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#headerParams"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="params" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#params"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="returningType" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#returningType"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="standardFileManager" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#standardFileManager"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="611,126">
+      <children xsi:type="editmodel:MethodEditModel" name="AlgoDynamicCompiler" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#AlgoDynamicCompiler(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="compile" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#compile(Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="generateCode" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#generateCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCode" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#getCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCompiledClass" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#getCompiledClass(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="runExecution" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#runExecution(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFunction" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler#setFunction()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler->fr.univtln.ganne882.project2007.algos/MemoryFileManager" source="//@children.9" target="//@children.5" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="316,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="322,334"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.algos/Algorithm&lt;-fr.univtln.ganne882.project2007.algos/AlgoDynamicCompiler" source="//@children.9" target="//@children.8" targetEnd="//@children.9/@sourceConnections.1/@children.1" sourceEnd="//@children.9/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="362,548"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AlgosListing" location="620,1189" size="618,134" id="fr.univtln.ganne882.project2007.algos/AlgosListing" runTimeClassModel="remainingAlgos(Ljava.lang.String;Ljava.lang.String;C),runWithNameSetAndIsLearnt(Ljava.lang.String;CCLjava.lang.String;),run()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="595,54">
+      <children xsi:type="editmodel:MethodEditModel" name="remainingAlgos" id="fr.univtln.ganne882.project2007.algos/AlgosListing#remainingAlgos(Ljava.lang.String;Ljava.lang.String;C)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="fr.univtln.ganne882.project2007.algos/AlgosListing#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="runWithNameSetAndIsLearnt" id="fr.univtln.ganne882.project2007.algos/AlgosListing#runWithNameSetAndIsLearnt(Ljava.lang.String;CCLjava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.algos/AlgosListing->fr.univtln.ganne882.project2007.algos/Messages" source="//@children.10" target="//@children.6" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="54,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="618,100" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,32"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="fr.univtln.ganne882.project2007.algos/Algorithm&lt;-fr.univtln.ganne882.project2007.algos/AlgosListing" source="//@children.10" target="//@children.8" targetEnd="//@children.10/@sourceConnections.1/@children.1" sourceEnd="//@children.10/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="297,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,548" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="fr.univtln.ganne882.project2007.algos/AlgosListing->fr.univtln.ganne882.project2007.algos/Algorithm" source="//@children.10" target="//@children.8" targetEnd="//@children.10/@sourceConnections.2/@children.2" label="//@children.10/@sourceConnections.2/@children.0" sourceEnd="//@children.10/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="51,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="228,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="185,548"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Naturel" methodSorter="Naturel" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Naturel" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="project2007" default="dist" basedir=".">
+	<description>Ant Script for project</description>
+  <property name="src" location="src"/>   
+  <property name="build" location="build"/>
+  <property name="dist"  location="dist"/> 
+  <property name="doc"  location="doc"/>   
+  <property name="lib"  location="lib"/>  
+
+  <target name="init">
+    <tstamp/>
+    <mkdir dir="${build}"/>
+    <mkdir dir="${doc}"/>
+    <mkdir dir="${lib}"/>
+  </target>
+
+  <target name="compile" depends="init"
+    description="compilation of sources " >
+  <copy todir="${build}/fr/univtln/ganne882/project2007/algos/" preservelastmodified="true">
+    <fileset dir="${src}/fr/univtln/ganne882/project2007/algos/">
+      <include name="*.properties"/>
+    </fileset>
+  </copy> 
+  	 <copy todir="${build}/fr/univtln/ganne882/project2007/gui/" preservelastmodified="true">
+  	    <fileset dir="${src}/fr/univtln/ganne882/project2007/gui/">
+  	      <include name="*.properties"/>
+  	    </fileset>
+  	  </copy> 
+  	   <javac srcdir="${src}" destdir="${build}">
+  	<classpath>
+  	      <fileset dir="${lib}">
+  	       <include name="*"/>
+  	      </fileset>
+  	     </classpath>
+    	</javac>
+  </target>
+
+  <target name="dist" depends="compile"
+        description="generating archive" >
+    <mkdir dir="${dist}"/> 
+    <jar jarfile="${dist}/MyProject-${DSTAMP}.jar" basedir="${build}">  
+    <manifest>                        
+      	<attribute name="Class-Path" value="lib/postgresql-8.1-407.jdbc3.jar 
+      		lib/log4j-1.2.13.jar lib/junit-4.1.jar"/>
+      	    <attribute name="Main-Class" value="fr.univtln.ganne882.project2007.gui.Main"/>
+    </manifest>
+  </jar>
+</target>
+ 
+  <target name="javadoc" depends="init"
+  	description="generating java documentation " >
+	 <javadoc packagenames="fr.univtln.*"
+	  sourcepath="${src}"
+	  destdir="${doc}"
+	  version="true"
+	  use="true"
+	  private="true"
+	  overview="overview.html"
+	  windowtitle="My project"
+	  doctitle="My project"
+	  bottom="Copyright © 2007 - Gregory ANNE" >
+        <link href="http://java.sun.com/j2se/1.4/docs/api/" />
+	  </javadoc>
+	</target>
+
+
+	<target name="run" depends="dist" description="Launching program">
+    <java classname="fr.univtln.ganne882.project2007.gui.Main" fork="true">
+   		 <classpath>  
+   		<fileset dir="${dist}">
+            <include name="MyProject-${DSTAMP}.jar"/>
+           </fileset>
+     		  <fileset dir="${lib}">
+     		         <include name="*"/>
+     		        </fileset>    
+     </classpath>
+    </java> 
+  </target>
+	
+
+	<target name="junit" depends="dist" description="Launching tests">
+	    <java classname="fr.univtln.ganne882.project2007.TestsExecution" fork="true">
+	     <classpath>
+	      <fileset dir="${dist}">
+	       <include name="MyProject-${DSTAMP}.jar"/>
+	      </fileset>
+	      <fileset dir="${lib}">
+	       <include name="*"/>
+	      </fileset>
+	     </classpath>
+	    </java>
+	  </target>
+
+	
+  <target name="clean"  description="removing old files" >
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+    <delete dir="${doc}"/>
+  </target>
+</project>
